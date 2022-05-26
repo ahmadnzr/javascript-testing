@@ -2,7 +2,7 @@ import React, { ReactNode, useCallback, useState } from "react";
 import { CounterContext } from "../Context/CounterContext";
 
 interface Props {
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 export const CounterProvider = ({ children }: Props) => {
